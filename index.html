@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EldritchHorror</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="index.js" type="module" defer></script>
+  <script src="./data/ancients.js" type="module" defer></script>
+  <script src="./data/difficulties.js" type="module" defer></script>
+  <script src="./data/mythicCards/blue/index.js" type="module" defer></script>
+  <script src="./data/mythicCards/brown/index.js" type="module" defer></script>
+  <script src="./data/mythicCards/green/index.js" type="module" defer></script>
+</head>
+<body>
+  <div class="main-container">
+    <div class="ancients-wrap">
+      <div class="ancient azathoth"></div>
+      <div class="ancient cthulthu"></div>
+      <div class="ancient logsothoth"></div>
+      <div class="ancient shubniggurath"></div>
+    </div>
+    <div class="difficulties-wrap">
+      <div class="difficulty">
+        <span>Низкая</span>
+      </div>
+      <div class="difficulty">
+        <span>Средняя</span>
+      </div>
+      <div class="difficulty">
+        <span>Высокая</span>
+      </div>
+    </div>
+    <div class="table">
+      <div class="mix-wrap">
+        <div class="mix">
+          <span>Замешать колоду</span>
+        </div>
+      </div>
+      <div class="stages-wrap">
+        <div class="stages">
+          <div class="stage first-stage">
+            <h4>Первая стадия</h4>
+            <div class="tracker">
+              <div class="track green-track">
+                <span class="tracker-text"></span>
+              </div>
+              <div class="track brown-track">
+                <span class="tracker-text"></span>
+              </div>
+              <div class="track blue-track">
+                <span class="tracker-text"></span>
+              </div>
+            </div>
+          </div>
+          <div class="stage second-stage">
+            <h4>Вторая стадия</h4>
+            <div class="tracker">
+              <div class="track green-track">
+                <span class="tracker-text"></span>
+              </div>
+              <div class="track brown-track">
+                <span class="tracker-text"></span>
+              </div>
+              <div class="track blue-track">
+                <span class="tracker-text"></span>
+              </div>
+            </div>
+          </div>
+          <div class="stage third-stage">
+            <h4>Третья стадия</h4>
+            <div class="tracker">
+              <div class="track green-track">
+                <span class="tracker-text"></span>
+              </div>
+              <div class="track brown-track">
+                <span class="tracker-text"></span>
+              </div>
+              <div class="track blue-track">
+                <span class="tracker-text"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-space">
+          <div class="card-deck"></div>
+          <div class="current-card"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

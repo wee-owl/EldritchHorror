@@ -1,0 +1,2 @@
+# EldritchHorror
+The RSSchool practice
